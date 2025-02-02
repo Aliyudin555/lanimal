@@ -1,0 +1,331 @@
+body{
+background-color: #f7f7f7!important;
+}
+.bahome {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btnk{
+width: 120%;
+height: 90%;
+margin-top: 20px;
+background-color: rgb(105, 206, 193);
+border-radius: 10%!important;
+box-shadow: 12px 10px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 12px 10px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 10px 10px 0px rgba(0,0,0,0.75);
+transition: 0.80s !important;
+}
+.btnk:hover{
+transform: scale(120%)!important;
+background-color: rgb(96, 208, 252)!important;
+/* border-radius: 90%!important; */
+box-shadow: -1px 10px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 10px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 10px 10px 0px rgba(0,0,0,0.75);
+
+}
+.title,
+.sub-title,
+.button {
+        text-shadow: 2px 3px 2px #d1d1d1;
+        margin-bottom: 20px;
+        color: rgb(29, 29, 29);
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+.navbar{
+    background-color: #ebfbfe;
+    height: 80px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px #525151;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+iframe{
+margin-top: 30px;
+}
+.login{
+    background-color: rgb(150, 177, 196);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+.login:hover{
+    background-color: rgb(89, 187, 243);
+}
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+.navbar-toggler:focus .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+.nav-link{
+    color: blue;
+    font-weight: 500;
+    position: relative;
+}
+.nav-link:hover, .nav-link.active{
+    color: black;
+}
+@media(min-width: 991px){
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: rgb(59, 154, 209);
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-link:hover::before, .nav-link.nav-link.active::before{
+        width: 100%;
+        visibility: visible;
+    }
+}
+/* drak mode */
+.dark-mode-toggle {
+    cursor: pointer;
+margin-right: 1rem;
+}
+body.dark-mode {
+    background-color: #121212!important;
+    color: #ffffff!important;
+}
+
+.navbar.dark-mode {
+    background-color: #aaaaaa;
+    border-color: #444;
+}
+
+.nav-link.dark-mode {
+    color: #ffffff !important;
+}
+
+.offcanvas-body.dark-mode {
+    background-color: #aaaaaa;
+    color: #ffffff;
+}
+body.dark-mode h1.title,
+body.dark-mode h3.sub-title,
+body.dark-mode .btnk {
+    color: #ffffff;
+    text-shadow: 2px 3px 2px #2e2e2e;
+}
+
+body.dark-mode .btnk {
+    background-color: #444444;
+    border-color: #444444;
+}
+
+body.dark-mode .typing {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+.top {
+    margin-top: 10rem;
+}
+.card-margin {
+    margin-bottom: 20px;
+}
+.custom-card {
+    border: 20px solid #057b83 !important;
+    border-radius: 5px!important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)!important;
+}
+.card1,
+.card2,
+.card3
+.card4{
+/*
+.card5,
+.card6,
+.card7,{ */
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.card1{
+    background-color: #7ec8e6;
+    margin-bottom: 20px;
+}
+.card2{
+    margin-top: 20px;
+
+
+}
+.card3{
+    margin-top: 20px;
+
+}
+.card4{
+    margin-top: 20px;
+
+}
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-text{
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: semibold;
+}
+.text{
+    margin-top: 2rem;
+    font-size: 20px !important;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+.img-fluid{
+    width: 350px !important;
+    height: 350px !important;
+}
+
+
+/* Contact Section */
+.contact {
+    text-align: center;
+padding-top: 10% !important;
+    padding: 5rem 0;
+    margin-top: 0rem !important;
+    background-color:  #d5edf7;
+  }
+.row{
+margin: 0% 0% !important;
+}
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .contact p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+
+  .contact .row {
+    margin-top: 5rem;
+    background-color:  #d5edf7;
+    display: flex;
+    justify-content: center; /* Center align the form */
+  }
+
+  .contact .row form {
+    width: 100%;
+    max-width: 500px; /* Limit the width of the form */
+    padding: 2rem 1rem; /* Adjust padding for smaller form */
+    text-align: left;
+    background-color: #050404; /* Background color of the form */
+    border-radius: 8px; /* Rounded corners for the form */
+box-shadow: 2px 4px 4px #111010;
+  }
+
+  .contact .row form .input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: var(--bg);
+    border: 1px solid #eee;
+    padding-left: 1.5rem; /* Adjust padding for smaller input */
+    border-radius: 4px; /* Rounded corners for inputs */
+  }
+
+  .contact .row form .input-group input {
+    width: 100%;
+    padding: 1rem; /* Adjust padding for smaller input */
+    font-size: 1.5rem;
+    background: none;
+    color: #fff;
+    border: none; /* Remove border from input */
+  }
+
+  .contact .row form .btn {
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: var(--primary);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px; /* Rounded corners for button */
+  }
+
+
+/* Footer */
+footer {
+    background-color:rgba(54, 170, 248, 0.747);
+    text-align: center;
+    padding: 2rem 0 5rem;
+    margin-top: 0rem;
+  }
+
+  footer .socials {
+    padding: 1rem 0;
+  }
+
+  footer .socials a {
+    color: #fff;
+    margin: 1rem;
+  }
+
+  footer .socials a:hover,
+  footer .links a:hover {
+    color: var(--bg);
+  }
+
+  footer .links {
+    margin-bottom: 1.4rem;
+  }
+
+  footer .links a {
+    color: #fff;
+    padding: 0.7rem 1rem;
+  }
+
+  footer .credit {
+    font-size: 0.8rem;
+  }
+
+  footer .credit a {
+    color: var(--bg);
+    font-weight: 700;
+  }
+
+
+
+
+
+
+/* login page */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
